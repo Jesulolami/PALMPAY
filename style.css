@@ -11,10 +11,11 @@
 } */
 .nav-bar{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 10px;
     background-color: white;
-    padding: 20px 270px;
+    padding: 20px 0px;
     position: fixed;
     width: 100%;
 }
@@ -52,6 +53,8 @@
     border-radius: 10px;
     border: 1px solid #f7f6fb58;
 }
+
+/* HERO SECTION */
 
 .hero-section{
     background-image: url(palmpay-images/imgi_46_Backgrounded7fa1f5-08f5-45.png);
@@ -537,5 +540,185 @@ footer{
 .footer-line{
     width: 100%;
     border: 1px solid #ffffff56;
+
+}
+/* Mobile PHONE */
+@media screen and (max-width: 480px) {
+    .nav-bar{
+    display: flex;
+    /* gap: 10px; */
+    /* align-items: center; */
+    justify-content: none;
+    background-color: white;
+    padding: 20px 25px;
+    position: fixed;
+    /* width: 100%; */
+    z-index: 99;
+}
+
+.nav-bar img{
+    width: 100px;
+}
+
+.nav-bar a{
+    display: none;
+    
+}
+
+.nav-bar a:hover{
+    display: none;
+}
+
+.nav-bar button{
+
+    display: none;
+}
+
+.nav-bar select{
+    padding: 10px 20px;
+    background-color: #f7f6fb;
+    border-radius: 10px;
+    border: 1px solid #f7f6fb58;
+
+}
+    /*HERO SECTION  */
+
+.hero-section{
+    background-image: url(palmpay-images/imgi_46_Backgrounded7fa1f5-08f5-45.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    /* padding: 100px 20px; */
+    padding-top: 190px;
+    padding-bottom: 0;
+
+}
+
+.smarter-way h1{
+    font-size: 60px;
+    text-shadow: -5px 6px 0px rgba(0, 0, 0, 0.454);
+    color: white;
+    line-height: 78px;
+
+}
+
+.smarter-way p{
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+    padding: 50px 0px;
+    font-size: 24px;
+}
+
+.phone-image img{
+    height: 405px;
+    width: 300px;
+    /* display: block; */
+    object-position: top;
+    object-fit: cover;
+    
+}
+
+.phone-image {
+    display: flex;
+    align-items: flex-end; /* This forces the phone image to sit exactly on the bottom edge */
+    /* height: 100%; */
+    margin-top: 40px;
+    margin-left: 50px;
+    
+}
+
+/* BANNER */
+.banner{
+    width: 100%;
+    background-color: #6f07c0;
+    padding: 10px 0px;
+    margin-top: 0px;
+    
+    
+}
+.banner img{
+    display: none;
+}
+
+/* BUILT FOR PEOPLE GOING PLACES */
+
+.built-for-people {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.built-for-people h2{
+    font-size: 49px;
+    letter-spacing: -2px;
+    color: #490181;
+    font-family: sans-serif;
+    font-weight: 770;
+    text-shadow: 0px 4.05px 4.1px rgba(0, 0, 0, 0.289);
+}
+.going-places{
+    background-image: url(./palmpay-images/imgi_49_topBannerBGa32288f7-2d2c-48.png);
+}
+.built-for-people p{
+    font-size: 26px;
+    color: #8F00FF;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    padding: 10px 0px;
+    letter-spacing: 1%;
+    
+}
+
+.purple-div{
+    background-color: #490181;
+    border-radius: 40px;
+    box-shadow: 1px 13px 1px #fdd94b;
+    padding: 30px 30px;
+    margin: 20px 10px;
+    width: 100%;
+    max-width: 595px;
+    height: 130px;
+}
+
+.purple-div h3{
+    color: white;
+    font-size: 21px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.purple-div p{
+    color: white;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    line-height: 20px;
+}
+
+
+.three-purple-div{
+    display: flex;
+    flex-direction: column;
+    margin-top: -30px;
+}
+
+.skating-div{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.skating-div img{
+    width: 450px;
+    margin-left: -190px;
+}
+
 
 }
