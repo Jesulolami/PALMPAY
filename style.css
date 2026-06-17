@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -9,7 +9,7 @@
   font-weight: 400;
   font-style: normal;
 } */
-.nav-bar{
+.nav-bar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,26 +20,26 @@
     width: 100%;
 }
 
-.nav-bar img{
+.nav-bar img {
     width: 140px;
 }
 
-.nav-bar a{
+.nav-bar a {
     text-decoration: none;
     color: #18191F;
     font-size: 16px;
     font-weight: 500;
     padding: 0px 30px;
     font-family: "Poppins", sans-serif;
-    
+
 }
 
-.nav-bar a:hover{
+.nav-bar a:hover {
     border-bottom: 3px solid #6d45e3;
     padding-bottom: 10px;
 }
 
-.nav-bar button{
+.nav-bar button {
     padding: 10px 20px;
     background-color: #6d45e3;
     color: white;
@@ -47,16 +47,21 @@
     border: none;
 }
 
-.nav-bar select{
+.nav-bar select {
     padding: 10px 20px;
     background-color: #f7f6fb;
     border-radius: 10px;
     border: 1px solid #f7f6fb58;
 }
 
+.nav-bar svg {
+    display: none;
+    cursor: pointer;
+}
+
 /* HERO SECTION */
 
-.hero-section{
+.hero-section {
     background-image: url(palmpay-images/imgi_46_Backgrounded7fa1f5-08f5-45.png);
     display: flex;
     justify-content: space-evenly;
@@ -68,7 +73,7 @@
 
 }
 
-.smarter-way h1{
+.smarter-way h1 {
     font-size: 60px;
     text-shadow: -5px 6px 0px rgba(0, 0, 0, 0.454);
     color: white;
@@ -76,7 +81,7 @@
 
 }
 
-.smarter-way p{
+.smarter-way p {
     font-size: 20px;
     color: white;
     font-weight: 300;
@@ -84,7 +89,7 @@
     font-size: 24px;
 }
 
-.phone-image img{
+.phone-image img {
     height: 585px;
     width: 420px;
     /* display: block; */
@@ -94,26 +99,28 @@
 
 .phone-image {
     display: flex;
-    align-items: flex-end; /* This forces the phone image to sit exactly on the bottom edge */
+    align-items: flex-end;
+    /* This forces the phone image to sit exactly on the bottom edge */
     height: 100%;
     margin-left: -90px;
     margin-top: -70px;
 }
 
-.banner{
+.banner {
     width: 100%;
     background-color: #6f07c0;
     padding: 20px 0px;
     margin-top: -3px;
-    
-    
+
+
 }
 
-.banner img{
+.banner img {
     display: block;
     width: 790px;
     margin: 0 auto;
 }
+
 /* BUILT FOR PEOPLE GOING PLACES */
 
 .built-for-people {
@@ -123,7 +130,7 @@
     padding: 50px 0px;
 }
 
-.built-for-people h2{
+.built-for-people h2 {
     font-size: 49px;
     letter-spacing: -2px;
     color: #490181;
@@ -131,20 +138,22 @@
     font-weight: 770;
     text-shadow: 0px 4.05px 4.1px rgba(0, 0, 0, 0.289);
 }
-.going-places{
+
+.going-places {
     background-image: url(./palmpay-images/imgi_49_topBannerBGa32288f7-2d2c-48.png);
 }
-.built-for-people p{
+
+.built-for-people p {
     font-size: 26px;
     color: #8F00FF;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     padding: 10px 0px;
     letter-spacing: 1%;
-    
+
 }
 
-.purple-div{
+.purple-div {
     background-color: #490181;
     border-radius: 40px;
     box-shadow: 1px 13px 1px #fdd94b;
@@ -155,7 +164,7 @@
     height: 130px;
 }
 
-.purple-div h3{
+.purple-div h3 {
     color: white;
     font-size: 21px;
     font-family: "Poppins", sans-serif;
@@ -164,7 +173,7 @@
     padding-bottom: 10px;
 }
 
-.purple-div p{
+.purple-div p {
     color: white;
     font-size: 16px;
     font-family: "Poppins", sans-serif;
@@ -174,40 +183,44 @@
 }
 
 
-.three-purple-div{
+.three-purple-div {
     display: flex;
     flex-direction: column;
     margin-top: -30px;
 }
 
-.skating-div{
+.skating-div {
     display: flex;
     justify-content: space-evenly;
 
 }
 
-.skating-div img{
+.skating-div img {
     width: 450px;
     margin-left: -190px;
 }
 
-.stop-paying{
+.stop-paying {
     margin-left: 10px;
 }
 
-.stop-paying h3{
- color: #490181;
- font-size: 50px;
- text-shadow: 0px 5px 2px rgba(0, 0, 0, 0.117);
- font-family: "Poppins", sans-serif;
- font-weight: 700;
- padding: 45px 0px 40px;
- /* padding-bottom: 40px; */
- line-height: 62px;
+#displaynone{
+    display: none;
 }
 
-.stop-paying p{
-    font-size: 24px; 
+.stop-paying h3 {
+    color: #490181;
+    font-size: 50px;
+    text-shadow: 0px 5px 2px rgba(0, 0, 0, 0.117);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    padding: 45px 0px 40px;
+    /* padding-bottom: 40px; */
+    line-height: 62px;
+}
+
+.stop-paying p {
+    font-size: 24px;
     font-family: "Poppins", sans-serif;
     color: #490181;
     text-shadow: 1px 5px 1px rgba(0, 0, 0, 0.117);
@@ -216,7 +229,7 @@
     line-height: 40px;
 }
 
-.success-rate{
+.success-rate {
     background-color: #8f00ff;
     padding: 20px 40px;
     font-size: 20px;
@@ -228,7 +241,7 @@
     font-family: "Poppins", sans-serif;
 }
 
-.to-send-money img{
+.to-send-money img {
     width: 520px;
     height: 500px;
     border-radius: 50px;
@@ -236,7 +249,7 @@
 
 }
 
-.to-send-money{
+.to-send-money {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -245,7 +258,7 @@
     background-color: #f1f0fe;
 }
 
-.earn{
+.earn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -254,25 +267,25 @@
     background-image: url(./palmpay-images/imgi_49_topBannerBGa32288f7-2d2c-48.png);
 }
 
-.earn img{
+.earn img {
     width: 80%;
     height: 500px;
     border-radius: 50px;
     object-fit: cover;
 }
 
-.on-your-savings h3{
- color: #490181;
- font-size: 50px;
- text-shadow: 0px 5px 2px rgba(0, 0, 0, 0.117);
- font-family: "Poppins", sans-serif;
- font-weight: 700;
- padding-bottom: 40px;
- line-height: 62px;
- text-align: right;
+.on-your-savings h3 {
+    color: #490181;
+    font-size: 50px;
+    text-shadow: 0px 5px 2px rgba(0, 0, 0, 0.117);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    padding-bottom: 40px;
+    line-height: 62px;
+    text-align: right;
 }
 
-.on-your-savings p{
+.on-your-savings p {
     font-size: 24px;
     font-family: "Poppins", sans-serif;
     color: #490181;
@@ -283,11 +296,11 @@
     text-align: right;
 }
 
-.on-your-savings{
+.on-your-savings {
     margin-left: -80px;
 }
 
-.safe-space h2{
+.safe-space h2 {
     text-align: center;
     font-size: 50px;
     font-weight: 700;
@@ -297,18 +310,18 @@
     text-shadow: 1px 5px 2px rgba(0, 0, 0, 0.132);
 }
 
-.CBN{
+.CBN {
     text-align: center;
     /* padding: 10px 30px; */
 }
 
-.two-hrs{
+.two-hrs {
     display: flex;
     justify-content: center;
     /* padding: 20px 0px; */
 }
 
-.CBN h3{
+.CBN h3 {
     font-size: 24px;
     font-family: "Poppins", sans-serif;
     color: #4D0683;
@@ -316,7 +329,7 @@
     text-align: center;
 }
 
-.CBN p{
+.CBN p {
     font-size: 16px;
     line-height: 25.6px;
     color: #490181;
@@ -327,30 +340,30 @@
     padding: 0px 84px;
 }
 
-.vertical-line{
+.vertical-line {
     border: 1px solid #490181;
     height: 170px;
     align-self: last baseline;
     margin-top: 40px;
 }
 
-.safe-space{
+.safe-space {
     padding: 50px 0px 90px;
     background-color: #f8f9fe;
 }
 
-.loved{
+.loved {
     text-align: center;
 }
 
-.loved h3{
+.loved h3 {
     font-size: 40px;
     color: #4D0683;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
 }
 
-.loved p{
+.loved p {
     font-size: 22px;
     font-family: "Poppins", sans-serif;
     color: #4D0683;
@@ -359,7 +372,7 @@
     padding: 30px 0px 10px;
 }
 
-.reviews{
+.reviews {
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -367,38 +380,39 @@
 
 }
 
-.review-section{
+.review-section {
     background-color: #e6c5fe;
     padding: 70px 0px;
-    
+
 }
 
-.first-review{
+.first-review {
     background-color: white;
     padding: 50px;
     width: 100%;
     border-radius: 50px;
 }
 
-.second-review{
+.second-review {
     background-color: white;
     padding: 30px;
     width: 100%;
     border-radius: 50px;
 }
 
-.download img{
+.download img {
     width: 150px;
 }
 
-.download{
+.download {
     display: flex;
     justify-content: center;
     gap: 70px;
 }
+
 /* DOWNLOAD PALMPAY */
 
-.download-palmpay{
+.download-palmpay {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -406,11 +420,11 @@
     padding: 60px 0px 0px;
     background-image: url(./palmpay-images/imgi_49_topBannerBGa32288f7-2d2c-48.png);
     /* to pin the image and allow the text to scroll over it */
-    background-attachment: fixed;  
+    background-attachment: fixed;
     margin-bottom: -5px;
 }
 
-.download-palmpay-image img{
+.download-palmpay-image img {
     width: 450px;
     height: 640px;
     object-fit: cover;
@@ -419,7 +433,7 @@
 
 
 
-.now p{
+.now p {
     font-size: 43px;
     font-family: "Poppins", sans-serif;
     color: #490181;
@@ -436,13 +450,13 @@
     margin-left: -80px;
 } */
 
-.download-app{
+.download-app {
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
 }
 
-.download-app img{
+.download-app img {
     width: 180px;
     margin-top: 30px;
 
@@ -450,52 +464,54 @@
 
 /* PALMPAY USERS */
 
-.palmpay-users{
+.palmpay-users {
     display: flex;
     justify-content: center;
     gap: 60px;
     margin-top: 0px;
 }
 
-.palmpay-users h2{
+.palmpay-users h2 {
     font-size: 32px;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     color: white;
 }
 
-.palmpay-users span{
+.palmpay-users span {
     font-size: 42px;
     font-family: "Poppins", sans-serif;
     font-weight: 900;
     color: white;
 }
 
-.palmpay-users{
-    background-image: 
-     url(./palmpay-images/imgi_54_footerBg.0ehbqz15_4v0l.png), linear-gradient(91deg, #341d77 -6.5%,   #7f46db 106%);
+.palmpay-users {
+    background-image:
+        url(./palmpay-images/imgi_54_footerBg.0ehbqz15_4v0l.png), linear-gradient(91deg, #341d77 -6.5%, #7f46db 106%);
     background-size: cover;
     background-position: center;
-    padding:  40px 100px;
+    padding: 40px 100px;
 }
+
 /* FOOTER */
 
-.footer-images{
+.footer-images {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.footer-images img{
+.footer-images img {
     width: 150px;
 }
-.footer-list{
+
+.footer-list {
     display: flex;
     justify-content: center;
     gap: 130px;
 }
 
-.footer-list h5{
+.footer-list h5 {
     color: white;
     font-family: "Poppins", sans-serif;
     font-size: 20px;
@@ -503,7 +519,7 @@
     padding-bottom: 12px;
 }
 
-.footer-list li{
+.footer-list li {
     color: #D9DBE1;
     font-family: "Poppins", sans-serif;
     font-size: 14px;
@@ -513,15 +529,17 @@
     line-height: 24px;
 }
 
-.footer-icons{
+.footer-icons {
     display: flex;
     justify-content: right;
     gap: 20px;
 }
-.footer-icons img{
+
+.footer-icons img {
     width: 25px;
 }
-.footer-copyright{
+
+.footer-copyright {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -532,193 +550,313 @@
     font-size: 14px;
 }
 
-footer{
+footer {
     background-color: #1e1e1e;
     padding: 50px 0px;
 }
 
-.footer-line{
+.footer-line {
     width: 100%;
     border: 1px solid #ffffff56;
 
 }
-/* Mobile PHONE */
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 1200px) {
+    .reviews {
+        padding: 30px 50px;
+    }
+
+    .footer-list {
+        gap: 40px;
+        flex-wrap: wrap;
+        padding: 0 40px;
+    }
+
+    .footer-copyright {
+        gap: 50px;
+        flex-wrap: wrap;
+        padding: 50px 40px;
+    }
+
+    footer>div:last-child {
+        padding: 20px 40px !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .hero-section {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 130px;
+    }
+
+    .smarter-way {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .smarter-way>div:last-child {
+        gap: 20px !important;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .phone-image {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+
+    .skating-div {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    .skating-div img {
+        margin-left: 0;
+        max-width: 100%;
+        margin-top: 30px;
+    }
+
+    .three-purple-div {
+        width: 100%;
+    }
+
+    .to-send-money,
+    .earn {
+        flex-direction: column;
+        padding: 50px 20px;
+        gap: 30px;
+    }
+
+    .on-your-savings {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .on-your-savings h3,
+    .on-your-savings p,
+    .now p {
+        text-align: center;
+    }
+
+    .stop-paying {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .to-send-money img,
+    .earn img {
+        width: 100%;
+        height: auto;
+    }
+
+    .download-palmpay {
+        flex-direction: column;
+        gap: 40px;
+        padding: 50px 20px;
+        background-attachment: scroll;
+    }
+
+    .download-palmpay-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .palmpay-users {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 50px 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav-bar {
+        justify-content: space-between;
+        padding: 15px 20px;
+        z-index: 99;
+    }
+
+    .nav-bar>div:nth-child(2),
+    .nav-bar button {
+        display: none;
+    }
+
+    .nav-bar svg {
+        display: block;
+    }
+
+    .banner img {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .loved {
+        text-align: center;
+    }
+
+    .loved h3 {
+        font-size: 40px;
+        color: #4D0683;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+    }
+
+    .loved p {
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+        color: #4D0683;
+        font-weight: 400;
+        line-height: 28.6px;
+        padding: 30px 0px 10px;
+    }
+
+    .safe-space>div:nth-child(2) {
+        flex-direction: column;
+        gap: 30px !important;
+        padding: 30px 20px !important;
+    }
+
+    .two-hrs {
+        flex-direction: column;
+        gap: 40px;
+        padding: 0 20px;
+    }
+
+    .vertical-line {
+        display: none;
+    }
+
+    .reviews {
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+
+    .footer-list {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-images {
+        align-items: center;
+    }
+
+    .footer-copyright {
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width: 480px) {
-    .nav-bar{
-    display: flex;
-    /* gap: 10px; */
-    /* align-items: center; */
-    justify-content: none;
-    background-color: white;
-    padding: 20px 25px;
-    position: fixed;
-    /* width: 100%; */
-    z-index: 99;
-}
+    .smarter-way h1 {
+        font-size: 40px;
+        line-height: 52px;
+    }
 
-.nav-bar img{
-    width: 100px;
-}
+    .smarter-way p {
+        font-size: 18px;
+        padding: 30px 0;
+    }
 
-.nav-bar a{
-    display: none;
-    
-}
+    .built-for-people h2 {
+        font-size: 32px;
+    }
 
-.nav-bar a:hover{
-    display: none;
-}
+    .built-for-people p {
+        font-size: 18px;
+    }
 
-.nav-bar button{
+    .stop-paying h3,
+    .on-your-savings h3 {
+        font-size: 32px;
+        line-height: 42px;
+    }
 
-    display: none;
-}
+    .stop-paying p,
+    .on-your-savings p {
+        font-size: 18px;
+        line-height: 28px;
+    }
 
-.nav-bar select{
-    padding: 10px 20px;
-    background-color: #f7f6fb;
-    border-radius: 10px;
-    border: 1px solid #f7f6fb58;
+    .purple-div {
+        height: auto;
+    }
 
-}
-    /*HERO SECTION  */
+    .success-rate {
+        font-size: 16px;
+        padding: 15px;
+    }
 
-.hero-section{
-    background-image: url(palmpay-images/imgi_46_Backgrounded7fa1f5-08f5-45.png);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 100%;
-    font-family: "Poppins", sans-serif;
-    /* padding: 100px 20px; */
-    padding-top: 190px;
-    padding-bottom: 0;
+    .now p {
+        font-size: 32px;
+        line-height: 42px;
+    }
 
-}
+    .loved {
+        text-align: center;
+    }
 
-.smarter-way h1{
-    font-size: 60px;
-    text-shadow: -5px 6px 0px rgba(0, 0, 0, 0.454);
-    color: white;
-    line-height: 78px;
+    .loved h3 {
+        font-size: 25px;
+        color: #4D0683;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+    }
 
-}
+    .loved p {
+        font-size: 16px;
+        font-family: "Poppins", sans-serif;
+        color: #4D0683;
+        font-weight: 400;
+        line-height: 28.6px;
+        padding: 30px 0px 10px;
+    }
 
-.smarter-way p{
-    font-size: 20px;
-    color: white;
-    font-weight: 300;
-    padding: 50px 0px;
-    font-size: 24px;
-}
+    .download img {
+        width: 120px;
+    }
 
-.phone-image img{
-    height: 405px;
-    width: 300px;
-    /* display: block; */
-    object-position: top;
-    object-fit: cover;
-    
-}
+    .download {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
 
-.phone-image {
-    display: flex;
-    align-items: flex-end; /* This forces the phone image to sit exactly on the bottom edge */
-    /* height: 100%; */
-    margin-top: 40px;
-    margin-left: 50px;
-    
-}
-
-/* BANNER */
-.banner{
-    width: 100%;
-    background-color: #6f07c0;
-    padding: 10px 0px;
-    margin-top: 0px;
-    
-    
-}
-.banner img{
-    display: none;
-}
-
-/* BUILT FOR PEOPLE GOING PLACES */
-
-.built-for-people {
-    display: block;
-    margin: 0 auto;
+    .safe-space h2 {
     text-align: center;
-    padding: 50px 0px;
-}
-
-.built-for-people h2{
-    font-size: 49px;
-    letter-spacing: -2px;
-    color: #490181;
-    font-family: sans-serif;
-    font-weight: 770;
-    text-shadow: 0px 4.05px 4.1px rgba(0, 0, 0, 0.289);
-}
-.going-places{
-    background-image: url(./palmpay-images/imgi_49_topBannerBGa32288f7-2d2c-48.png);
-}
-.built-for-people p{
-    font-size: 26px;
-    color: #8F00FF;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    padding: 10px 0px;
-    letter-spacing: 1%;
-    
-}
-
-.purple-div{
-    background-color: #490181;
-    border-radius: 40px;
-    box-shadow: 1px 13px 1px #fdd94b;
-    padding: 30px 30px;
-    margin: 20px 10px;
-    width: 100%;
-    max-width: 595px;
-    height: 130px;
-}
-
-.purple-div h3{
-    color: white;
-    font-size: 21px;
-    font-family: "Poppins", sans-serif;
+    font-size: 25px;
     font-weight: 700;
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-.purple-div p{
-    color: white;
-    font-size: 16px;
     font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    text-align: center;
-    line-height: 20px;
+    color: #490181;
+    padding-top: 30px;
+    text-shadow: 1px 5px 2px rgba(0, 0, 0, 0.132);
 }
 
+    .safe-space img{
+        width: 60px !important;
+        object-fit: cover;
+    }
 
-.three-purple-div{
+    #displaynone img {
+    /* width: 520px;
+    height: 500px; */
+    border-radius: 50px;
+    object-fit: cover;
+
+}
+
+    #displaynone {
     display: flex;
-    flex-direction: column;
-    margin-top: -30px;
+    justify-content: center;
+    align-items: center;
+    /* gap: 50px; */
+    /* padding: 100px 0px; */
+    background-color: #f1f0fe;
 }
-
-.skating-div{
-    display: flex;
-    flex-direction: column;
-
-}
-
-.skating-div img{
-    width: 450px;
-    margin-left: -190px;
-}
-
-
 }
