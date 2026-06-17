@@ -47,9 +47,10 @@
 }
 
 .nav-bar select{
-    padding: 10px;
-    background-color: #eae7e9;
+    padding: 10px 20px;
+    background-color: #f7f6fb;
     border-radius: 10px;
+    border: 1px solid #f7f6fb58;
 }
 
 .hero-section{
@@ -59,7 +60,7 @@
     width: 100%;
     font-family: "Poppins", sans-serif;
     /* padding: 100px 20px; */
-    padding-top: 100px;
+    padding-top: 190px;
     padding-bottom: 0;
 
 }
@@ -81,11 +82,11 @@
 }
 
 .phone-image img{
-    height: 600px;
-    width: auto;
-    display: block;
-    
-
+    height: 585px;
+    width: 420px;
+    /* display: block; */
+    object-position: top;
+    object-fit: cover;
 }
 
 .phone-image {
@@ -110,6 +111,7 @@
     width: 790px;
     margin: 0 auto;
 }
+/* BUILT FOR PEOPLE GOING PLACES */
 
 .built-for-people {
     display: block;
@@ -119,10 +121,11 @@
 }
 
 .built-for-people h2{
-    font-size: 48px;
+    font-size: 49px;
+    letter-spacing: -2px;
     color: #490181;
     font-family: sans-serif;
-    font-weight: 700;
+    font-weight: 770;
     text-shadow: 0px 4.05px 4.1px rgba(0, 0, 0, 0.289);
 }
 .going-places{
@@ -133,7 +136,8 @@
     color: #8F00FF;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
-    padding: 20px 0px;
+    padding: 10px 0px;
+    letter-spacing: 1%;
     
 }
 
@@ -200,7 +204,7 @@
 }
 
 .stop-paying p{
-    font-size: 24px;
+    font-size: 24px; 
     font-family: "Poppins", sans-serif;
     color: #490181;
     text-shadow: 1px 5px 1px rgba(0, 0, 0, 0.117);
@@ -400,13 +404,14 @@
     background-image: url(./palmpay-images/imgi_49_topBannerBGa32288f7-2d2c-48.png);
     /* to pin the image and allow the text to scroll over it */
     background-attachment: fixed;  
-    
+    margin-bottom: -5px;
 }
 
 .download-palmpay-image img{
     width: 450px;
     height: 640px;
     object-fit: cover;
+    align-items: flex-end;
 }
 
 
@@ -437,6 +442,7 @@
 .download-app img{
     width: 180px;
     margin-top: 30px;
+
 }
 
 /* PALMPAY USERS */
@@ -444,26 +450,30 @@
 .palmpay-users{
     display: flex;
     justify-content: center;
+    gap: 60px;
+    margin-top: 0px;
 }
 
 .palmpay-users h2{
     font-size: 32px;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
+    color: white;
 }
 
 .palmpay-users span{
     font-size: 42px;
     font-family: "Poppins", sans-serif;
     font-weight: 900;
+    color: white;
 }
 
 .palmpay-users{
-    background-image:  linear-gradient(to right, #39207e, #7a43d4),
-     url(./palmpay-images/imgi_54_footerBg.0ehbqz15_4v0l.png);
+    background-image: 
+     url(./palmpay-images/imgi_54_footerBg.0ehbqz15_4v0l.png), linear-gradient(91deg, #341d77 -6.5%,   #7f46db 106%);
     background-size: cover;
     background-position: center;
-    padding: 100px;
+    padding:  40px 100px;
 }
 /* FOOTER */
 
