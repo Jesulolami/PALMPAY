@@ -59,7 +59,7 @@
 
 .smarter-way h1{
     font-size: 60px;
-    text-shadow: 1px 9px 1px rgba(0, 0, 0, 0.715);
+    text-shadow: -5px 6px 0px rgba(0, 0, 0, 0.454);
     color: white;
     line-height: 78px;
 
@@ -116,7 +116,7 @@
     color: #490181;
     font-family: sans-serif;
     font-weight: 700;
-    text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.289);
+    text-shadow: 0px 4.05px 4.1px rgba(0, 0, 0, 0.289);
 }
 .going-places{
     background-image: url(./palmpay-images/imgi_49_topBannerBGa32288f7-2d2c-48.png);
@@ -178,16 +178,17 @@
 }
 
 .stop-paying{
-    margin-left: 80px;
+    margin-left: 10px;
 }
 
 .stop-paying h3{
  color: #490181;
  font-size: 50px;
- text-shadow: 1px 5px 1px rgba(0, 0, 0, 0.117);
+ text-shadow: 0px 5px 2px rgba(0, 0, 0, 0.117);
  font-family: "Poppins", sans-serif;
  font-weight: 700;
- padding-bottom: 40px;
+ padding: 45px 0px 40px;
+ /* padding-bottom: 40px; */
  line-height: 62px;
 }
 
@@ -196,8 +197,8 @@
     font-family: "Poppins", sans-serif;
     color: #490181;
     text-shadow: 1px 5px 1px rgba(0, 0, 0, 0.117);
-    /* padding:  0px 40px; */
-    padding-bottom: 60px;
+    padding: 25px 0px 60px;
+    /* padding-bottom: 60px; */
     line-height: 40px;
 }
 
@@ -214,9 +215,11 @@
 }
 
 .to-send-money img{
-    width: 80%;
+    width: 520px;
     height: 500px;
     border-radius: 50px;
+    object-fit: cover;
+
 }
 
 .to-send-money{
@@ -224,7 +227,7 @@
     justify-content: center;
     align-items: center;
     gap: 50px;
-    padding: 100px 50px;
+    padding: 100px 0px;
     background-color: #f1f0fe;
 }
 
@@ -241,12 +244,13 @@
     width: 80%;
     height: 500px;
     border-radius: 50px;
+    object-fit: cover;
 }
 
 .on-your-savings h3{
  color: #490181;
  font-size: 50px;
- text-shadow: 1px 5px 1px rgba(0, 0, 0, 0.117);
+ text-shadow: 0px 5px 2px rgba(0, 0, 0, 0.117);
  font-family: "Poppins", sans-serif;
  font-weight: 700;
  padding-bottom: 40px;
@@ -267,4 +271,14 @@
 
 .on-your-savings{
     margin-left: -80px;
+}
+
+.safe-space h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    color: #490181;
+    padding-top: 30px;
+    text-shadow: 1px 5px 2px rgba(0, 0, 0, 0.132);
 }
