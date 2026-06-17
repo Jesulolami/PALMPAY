@@ -15,6 +15,8 @@
     align-items: center;
     background-color: white;
     padding: 20px 270px;
+    position: fixed;
+    width: 100%;
 }
 
 .nav-bar img{
@@ -29,6 +31,11 @@
     padding: 0px 30px;
     font-family: "Poppins", sans-serif;
     
+}
+
+.nav-bar a:hover{
+    border-bottom: 3px solid #6d45e3;
+    padding-bottom: 10px;
 }
 
 .nav-bar button{
@@ -281,4 +288,244 @@
     color: #490181;
     padding-top: 30px;
     text-shadow: 1px 5px 2px rgba(0, 0, 0, 0.132);
+}
+
+.CBN{
+    text-align: center;
+    /* padding: 10px 30px; */
+}
+
+.two-hrs{
+    display: flex;
+    justify-content: center;
+    /* padding: 20px 0px; */
+}
+
+.CBN h3{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    color: #4D0683;
+    margin: 24px 0 10px;
+    text-align: center;
+}
+
+.CBN p{
+    font-size: 16px;
+    line-height: 25.6px;
+    color: #490181;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    letter-spacing: -4%;
+    text-align: center;
+    padding: 0px 84px;
+}
+
+.vertical-line{
+    border: 1px solid #490181;
+    height: 170px;
+    align-self: last baseline;
+    margin-top: 40px;
+}
+
+.safe-space{
+    padding: 50px 0px 90px;
+    background-color: #f8f9fe;
+}
+
+.loved{
+    text-align: center;
+}
+
+.loved h3{
+    font-size: 40px;
+    color: #4D0683;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.loved p{
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    color: #4D0683;
+    font-weight: 400;
+    line-height: 28.6px;
+    padding: 30px 0px 10px;
+}
+
+.reviews{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px 420px;
+
+}
+
+.review-section{
+    background-color: #e6c5fe;
+    padding: 70px 0px;
+    
+}
+
+.first-review{
+    background-color: white;
+    padding: 50px;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.second-review{
+    background-color: white;
+    padding: 30px;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.download img{
+    width: 150px;
+}
+
+.download{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+/* DOWNLOAD PALMPAY */
+
+.download-palmpay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+    padding: 60px 0px 0px;
+    background-image: url(./palmpay-images/imgi_49_topBannerBGa32288f7-2d2c-48.png);
+    /* to pin the image and allow the text to scroll over it */
+    background-attachment: fixed;  
+    
+}
+
+.download-palmpay-image img{
+    width: 450px;
+    height: 640px;
+    object-fit: cover;
+}
+
+
+
+.now p{
+    font-size: 43px;
+    font-family: "Poppins", sans-serif;
+    color: #490181;
+    /* text-shadow: 1px 5px 1px rgba(0, 0, 0, 0.117); */
+    /* padding:  0px 40px; */
+    /* padding-bottom: 60px; */
+    line-height: 53px;
+    text-align: left;
+    /* margin: 0px 0px 10px; */
+    font-weight: 700;
+}
+
+/* .now{
+    margin-left: -80px;
+} */
+
+.download-app{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.download-app img{
+    width: 180px;
+    margin-top: 30px;
+}
+
+/* PALMPAY USERS */
+
+.palmpay-users{
+    display: flex;
+    justify-content: center;
+}
+
+.palmpay-users h2{
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.palmpay-users span{
+    font-size: 42px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+}
+
+.palmpay-users{
+    background-image:  linear-gradient(to right, #39207e, #7a43d4),
+     url(./palmpay-images/imgi_54_footerBg.0ehbqz15_4v0l.png);
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+}
+/* FOOTER */
+
+.footer-images{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-images img{
+    width: 150px;
+}
+.footer-list{
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+}
+
+.footer-list h5{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 12px;
+}
+
+.footer-list li{
+    color: #D9DBE1;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 6px 0px;
+    list-style: none;
+    line-height: 24px;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+}
+.footer-icons img{
+    width: 25px;
+}
+.footer-copyright{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 50px 0;
+    gap: 310px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+
+footer{
+    background-color: #1e1e1e;
+    padding: 50px 0px;
+}
+
+.footer-line{
+    width: 100%;
+    border: 1px solid #ffffff56;
+
 }
